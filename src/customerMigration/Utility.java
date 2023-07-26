@@ -22,7 +22,7 @@ public class Utility {
 	
 	static Workbook book;
 	static Sheet sheet;
-	public static String TestData_Sheet_Path = "D:/AutomationProject/SMP_3.1_Automation_Project/customerMigration/sample.xlsx";
+	public static String TestData_Sheet_Path = "";
 
 	public static Actions getActionsObject_submenu_homepage(WebDriver driver,WebElement sub_menu,WebElement sub_menu1){
 		

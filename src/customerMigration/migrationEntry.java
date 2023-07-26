@@ -41,9 +41,9 @@ public class migrationEntry {
 
 		// Login Usecase2: Entering Credentials
 
-		driver.findElement(By.xpath("//*[@id='user']")).sendKeys("cstfull");
+		driver.findElement(By.xpath("//*[@id='user']")).sendKeys("");
 		driver.findElement(By.xpath("//*[@id='password']")).sendKeys(
-				"secret");
+				"");
 		// clicking on LoginButton after entering credentials
 		driver.findElement(
 				By.xpath("//*[@id='consumerForm']/li[3]/table/tbody/tr/td[1]/input"))
